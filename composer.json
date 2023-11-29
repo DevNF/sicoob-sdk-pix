@@ -1,0 +1,24 @@
+{
+    "name": "nfservice/sicoob-api",
+    "description": "Biblioteca base para comunicaçao com a API do Sicoob para geração de pix",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "NFService\\Sicoob\\": "src/"
+      }
+    },
+    "authors": [
+      {
+        "name": "Henrique Ernandes",
+        "email": "rebeloehenrique@hotmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "6.3",
+        "vlucas/valitron": "dev-master",
+        "ramsey/uuid": "4.x-dev",
+        "chillerlan/php-qrcode": "5.0.1"
+    }
+  }
