@@ -43,7 +43,7 @@ class RequestMaker
         try {
             $client = new \GuzzleHttp\Client();
             $response = $client->request($metodo, $this->base_url . $uri, [
-                'debug' => $this->debug,
+                'debug' => false,
                 'headers' => [
                     'Authorization' => 'Bearer ' . $this->sicoob->getToken(),
                     'client_id' => $this->sicoob->getClientId(),
